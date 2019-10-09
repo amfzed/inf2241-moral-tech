@@ -2,7 +2,7 @@ int timer = 0;
 
 void setup() {
   // put your setup code here, to run once:
-  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
 
   //for debugging purposes
   Serial.begin(9600);
@@ -10,11 +10,13 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:;
-
+  // read the brightness level once in a loop
+  int brightness = analogRead(5);
   // if the photosensor is in light, set timer to zero and keep the output off
-  if (analogRead(5) > 600) {
+  if (brightness > 300) {
+    Serial.println(brightness);
     timer = 0;
-    digitalWrite(12, LOW);
+    digitalWrite(11, LOW);
   } else {
     // otherwise start counting up
     delay(1000);
@@ -24,7 +26,7 @@ void loop() {
 
     // after 5 seconds, set off the sensor
     if (timer >= 5) {
-      digitalWrite(12, HIGH);
+      digitalWrite(11, HIGH);
     }
   }
 }
