@@ -14,6 +14,7 @@
   * Process
     * We were severely constrained by our own skills or lack thereof -- this is essentially an intro-level example with variables and sensor swapped out
     * We brainstormed as a group. Ed did a fantastic job compiling notes on the readings. A did much of the wiring and coding, Ed put it all together and designed the packaging.
+    * How was the outcome of this device affected by its making? What do you feel you learned or didn't by being less involved by the fabrication?
   * Basic functionality/demo
   * Can the user control the threshold for "too dark", the amount of time before the device goes off?
   * Deployment as an accountability alarm/get-out-of-the-darkness-device
