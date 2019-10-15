@@ -5,9 +5,11 @@
 * Motivation behind the project
   * Statements in the readings + current events that Ed wanted to explore
     * Borgmann's argument that engatement with a time, a place, and a community are morally valuable, and that technology creates disengagement -- can we design something that encourages engagement, instead of forcing disengagement?
-    * [def change this as you see fit!]
   * Statements in the readings that A wanted to explore
-    * [to add]
+    * Winner's call for arenas for the politics of technological choice, and the idea that a good citizen is one who can participate in the shaping of technologies and accept their shaping force in turn.
+    * To that end, how can you deploy this device to be moral -- or undermine it?
+    * We took what could have been democratizing technologies -- the Arduino, 3d printing -- and embedded in the built environment as hostile architecture.
+    * A property owner could make their space one more place people cannot gather. You could argue that it can deter unsavory characters from gathering, but it keeps anyone from gathering.
 * Presenting the device
   * Process
     * We were severely constrained by our own skills or lack thereof -- this is essentially an intro-level example with variables and sensor swapped out
